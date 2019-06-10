@@ -3,6 +3,16 @@
     padding: 0;
 }
 
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+    margin-left: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 body {
     font-family: 'Anton', Arial, sans-serif;
 }
@@ -11,23 +21,29 @@ header {
     width: 100%;
     background-color: #F94374;
     height: 100px;
+    display: flex;
 }
 
 .menu {
-    display: flex;
-    flex-wrap: wrap;
-    color: white;
+    color: #FFFFFF;
+    align-self: center;
+    font-size: 25px;
+}
+
+.logo:hover {
+    font-size: 3em;
 }
 
 .logo {
+    color: #FFFFFF;
+    font-size: 30px;
+}
 
-.navContainer {
-    max-width: 1000px;
+.headerContainer {
+    width: 1000px;
     margin: auto;
     display: flex;
     justify-content: space-between;
-    border: 2px solid black;
-    flex-wrap: wrap;
 }
 
 .baner {
